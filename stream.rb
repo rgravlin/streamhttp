@@ -10,8 +10,6 @@ use UTF8Cleaner::Middleware
 # Fixes Docker STDOUT logging
 $stdout.sync = true
 
-set :server_settings, :timeout => 3600
-set :protection, true
 set :server, :thin
 disable :show_exceptions, :raise_errors, :dump_errors
 

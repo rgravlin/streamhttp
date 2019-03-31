@@ -2,7 +2,7 @@
 user: nobody
 group: nobody
 pid: /tmp/pids/thin.pid
-timeout: 30
+timeout: 3600
 address: 0.0.0.0
 port: 3000
 wait: 30
